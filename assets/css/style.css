@@ -5,7 +5,6 @@
 
 .main-header h1 {
     font-size: 85px;
-    
 }
 
 .main-header p {
@@ -67,4 +66,18 @@ body {
 
 .footer {
     margin-top: 50px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 500px) {
+    .main-header h1 {
+        font-size: 30px;
+    }
+    #logo {
+        margin-left: 80px;
+    }
+    .para {
+        margin-top: 20px;
+    }
 }
