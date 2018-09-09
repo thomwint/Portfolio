@@ -1,6 +1,7 @@
 .main-header {
   background-image: url("../images/header_wallpaper.jpg");
   background-size: 100% 100%;
+  width: 100%;
 }
 
 .main-header h1 {
@@ -80,6 +81,9 @@ body {
     .para {
         margin-top: 20px;
     }
+    .main-header {
+        width:100%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -88,6 +92,8 @@ body {
     }
     #logo {
         margin-left: 30px;
+        height: 200px;
+        width: 200px;
     }
     .para {
         margin-top: 20px;
